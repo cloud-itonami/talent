@@ -4,7 +4,7 @@
    :dependency/revision "1ce8a65a8fe5b68aa5fda43004bf2bc14a5e13e7"
    :dependency/paths ["90-docs/adr"]}
   {:dependency/id com.etzhayyim/isco
-   :dependency/revision "1c278028012d6d0a5402dfb93269bc229dffc0fb"
+   :dependency/revision "27c6f88e4b8c9bd01bdbc2c8a854068f84ee076a"
    :dependency/west-path "orgs/etzhayyim/com-etzhayyim-isco"}
   {:dependency/id com.etzhayyim/recruit
    :dependency/revision "d6ef58813ced113d6cf4f18628359050ea72dcbf"
