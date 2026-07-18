@@ -1,0 +1,5 @@
+{:identity/id "did:web:talent.etzhayyim.com"
+ :identity/actor "talent"
+ :identity/canonical-document "manifest.edn"
+ :identity/external-did-document ".well-known/did.json"
+ :identity/canonical-format :edn}

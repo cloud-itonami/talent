@@ -1,14 +1,15 @@
-;; talent — actor manifest (kotoba-native; supersedes actor-manifest.jsonld)
+;; talent — canonical actor manifest (legacy JSON-LD is external wire only)
 ;; Cohort-first talent registry (Indeed/LinkedIn-Recruiter inversion), PII Tier 3.
 ;; ADR-2606072600 (remediation Phase A of ADR-2606071800)
 {:actor/id        "talent"
  :actor/glyph     "才"
  :actor/tier      :tier-b
+ :actor/integrates ["isco" "recruit"]
  :actor/domain    "talent.etzhayyim.com"
  :actor/purpose   "Recruiter-DB-inverse cohort-first talent registry (ISCO-08, PII Tier 3). Profiles are SELF-SOVEREIGN only (caller DID = subject DID; no third-party / scraped / purchased ingest). Identifying fields are Signal-E2E ciphertext (plaintext refused). Default reads are cohort aggregates suppressed below k (k-anonymity); individual reads are consent-gated. forgetSelf is a GDPR Art 17 hard cascade delete (no soft delete). kotoba-EAVT-native, Murakumo-only."
  :actor/status    :r1
  :actor/adr       "2606072600"
- :actor/supersedes "actor-manifest.jsonld (legacy T1 MCP-Compose / RisingWave; deprecated, removed after 1 R-cycle)"
+ :actor/supersedes "wire/actor-manifest.jsonld (legacy T1 MCP-Compose / RisingWave interoperability only)"
 
  :actor/charter-rider
  {:rider/version "2.0"

@@ -1,0 +1,11 @@
+{:dependencies
+ [{:dependency/id etzhayyim/root
+   :dependency/repository "https://github.com/etzhayyim/root"
+   :dependency/revision "1ce8a65a8fe5b68aa5fda43004bf2bc14a5e13e7"
+   :dependency/paths ["90-docs/adr"]}
+  {:dependency/id com.etzhayyim/isco
+   :dependency/revision "1c278028012d6d0a5402dfb93269bc229dffc0fb"
+   :dependency/west-path "orgs/etzhayyim/com-etzhayyim-isco"}
+  {:dependency/id com.etzhayyim/recruit
+   :dependency/revision "d6ef58813ced113d6cf4f18628359050ea72dcbf"
+   :dependency/west-path "orgs/etzhayyim/com-etzhayyim-recruit"}]}

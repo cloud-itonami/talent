@@ -1,12 +1,12 @@
-(ns talent.py.test-agent
-  "talent — registry tests. 1:1 port of py/test_agent.py. Verifies the PII-Tier-3 structural
+(ns talent.methods.test-agent
+  "talent — canonical registry tests. Verifies the PII-Tier-3 structural
   invariants of ADR-2606072600: G1 self-sovereign (third-party register + prohibited source
   refused), G3 signal-e2e (plaintext identifying field refused, ciphertext accepted), G2 cohort-
   first k-anonymity (below-k suppressed; ≥k aggregate only), G4 hard-delete (forget removes the
   profile entirely, no soft-delete flag)."
   (:require [clojure.test :refer [deftest is]]
             [clojure.string :as str]
-            [talent.py.agent :as agent]))
+            [talent.methods.agent :as agent]))
 
 (def ALICE "did:plc:alice")
 (def BOB "did:plc:bob")

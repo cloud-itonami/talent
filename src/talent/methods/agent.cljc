@@ -1,5 +1,5 @@
-(ns talent.py.agent
-  "talent — kotoba-native cohort-first talent registry. 1:1 port of py/agent.py. Self-sovereign,
+(ns talent.methods.agent
+  "talent — canonical CLJC cohort-first talent registry. Self-sovereign,
   hard-deletable profiles + k-anonymous cohort stats. Structural PII-Tier-3 invariants: self-
   sovereign write (G1 — caller DID == subject DID), Signal-E2E PII (G3 — plaintext identifying
   field refused), k-anonymity cohort stats (G2 — below-k suppressed), GDPR Art 17 hard delete (G4 —
