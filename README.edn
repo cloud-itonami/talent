@@ -1,0 +1,6 @@
+{:repo/id "cloud-itonami/talent"
+ :repo/plane :role
+ :repo/role :workforce-classification-actor
+ :repo/boundary {:classification-coordinator "cloud-itonami/isco"
+                 :source-catalog "cloud-itonami/org-ilo-isco"
+                 :compatibility-repository "etzhayyim/com-etzhayyim-talent"}}

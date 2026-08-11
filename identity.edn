@@ -1,5 +1,7 @@
 {:identity/id "did:web:talent.etzhayyim.com"
  :identity/actor "talent"
+ :identity/also-known-as ["https://github.com/cloud-itonami/talent"
+                          "https://github.com/etzhayyim/com-etzhayyim-talent"]
  :identity/canonical-document "manifest.edn"
  :identity/external-did-document ".well-known/did.json"
  :identity/canonical-format :edn}
