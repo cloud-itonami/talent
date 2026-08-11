@@ -1,4 +1,4 @@
-{:repository/name "com-etzhayyim-talent"
+{:repository/name "talent"
  :repository/category :actor
  :repository/canonical-format :edn
  :repository/canonical-metadata "manifest.edn"

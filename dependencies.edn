@@ -5,7 +5,7 @@
    :dependency/paths ["90-docs/adr"]}
   {:dependency/id com.etzhayyim/isco
    :dependency/revision "27c6f88e4b8c9bd01bdbc2c8a854068f84ee076a"
-   :dependency/west-path "orgs/etzhayyim/com-etzhayyim-isco"}
+   :dependency/west-path "orgs/cloud-itonami/isco"}
   {:dependency/id com.etzhayyim/recruit
    :dependency/revision "d6ef58813ced113d6cf4f18628359050ea72dcbf"
-   :dependency/west-path "orgs/etzhayyim/com-etzhayyim-recruit"}]}
+   :dependency/west-path "orgs/cloud-itonami/recruit"}]}
