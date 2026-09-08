@@ -5,7 +5,7 @@
   first k-anonymity (below-k suppressed; ≥k aggregate only), G4 hard-delete (forget removes the
   profile entirely, no soft-delete flag)."
   (:require [clojure.test :refer [deftest is]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [talent.methods.agent :as agent]))
 
 (def ALICE "did:plc:alice")
@@ -66,7 +66,7 @@
 (deftest test-no-individual-field-in-output
   (let [profiles (repeat 6 (profile* "email" "signal:v1:x"))
         out (agent/cohort-stats "2512" "JP" profiles)]
-    (is (every? (fn [k] (let [kl (str/lower-case k)]
+    (is (every? (fn [k] (let [kl (str/lower k)]
                           (and (not (str/includes? kl "email"))
                                (not (str/includes? kl "profile"))
                                (not (str/includes? kl "name")))))
