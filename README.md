@@ -20,7 +20,7 @@ Repository truth is EDN and CLJC:
 Run the standalone suite with:
 
 ```sh
-clojure -M -e '(load-file "run_tests.clj")'
+clojure -M -e '(load-file "run_tests.kotoba")'
 ```
 
 `isco` and `recruit` are exact-SHA dependencies at their flat west paths under
